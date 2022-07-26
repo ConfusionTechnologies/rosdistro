@@ -7347,6 +7347,17 @@ python3-nlopt:
     '*': [python3-nlopt]
     bionic: null
     xenial: null
+python3-norfair-pip:
+  debian:
+    pip: [norfair]
+  fedora:
+    pip: [norfair]
+  gentoo:
+    pip: [norfair]
+  osx:
+    pip: [norfair]
+  ubuntu:
+    pip: [norfair]
 python3-nose:
   arch: [python-nose]
   debian: [python3-nose]
