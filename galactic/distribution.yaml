@@ -237,7 +237,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/angles-release.git
-      version: 1.12.4-2
+      version: 1.14.0-1
     source:
       test_pull_requests: true
       type: git
@@ -628,7 +628,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros-gbp/control_toolbox-release.git
-      version: 2.0.2-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
@@ -730,7 +730,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/luxonis/depthai-core-release.git
-      version: 2.15.5-1
+      version: 2.17.0-1
     source:
       test_pull_requests: true
       type: git
@@ -965,6 +965,21 @@ repositories:
       url: https://github.com/ros/eigen_stl_containers.git
       version: dashing
     status: maintained
+  eigenpy:
+    doc:
+      type: git
+      url: https://github.com/stack-of-tasks/eigenpy.git
+      version: master
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/eigenpy-release.git
+      version: 2.7.8-1
+    source:
+      type: git
+      url: https://github.com/stack-of-tasks/eigenpy.git
+      version: devel
+    status: maintained
   embree_vendor:
     doc:
       type: git
@@ -1144,7 +1159,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/ros_foxglove_msgs-release.git
-      version: 1.2.2-1
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
@@ -1270,7 +1285,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/geometry2-release.git
-      version: 0.17.3-1
+      version: 0.17.4-1
     source:
       test_pull_requests: true
       type: git
@@ -1507,7 +1522,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/image_common-release.git
-      version: 2.3.1-1
+      version: 2.5.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1518,7 +1533,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: ros2
+      version: galactic
     release:
       packages:
       - camera_calibration
@@ -1537,7 +1552,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: ros2
+      version: galactic
     status: maintained
   image_transport_plugins:
     doc:
@@ -1574,7 +1589,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/imu_tools-release.git
-      version: 2.0.2-1
+      version: 2.0.3-1
     source:
       test_pull_requests: true
       type: git
@@ -1892,6 +1907,21 @@ repositories:
       url: https://github.com/ros2/libyaml_vendor.git
       version: galactic
     status: maintained
+  log_view:
+    doc:
+      type: git
+      url: https://github.com/hatchbed/log_view.git
+      version: ros2
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/hatchbed/log_view-release.git
+      version: 0.2.1-1
+    source:
+      type: git
+      url: https://github.com/hatchbed/log_view.git
+      version: ros2
+    status: developed
   lua_vendor:
     doc:
       type: git
@@ -1916,7 +1946,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/nobleo/magic_enum-release.git
-      version: 0.7.3-1
+      version: 0.8.0-1
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
@@ -2252,7 +2282,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.4.9-1
+      version: 2.5.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -2324,17 +2354,17 @@ repositories:
   nao_lola:
     doc:
       type: git
-      url: https://github.com/ijnek/nao_lola.git
-      version: rolling
+      url: https://github.com/ros-sports/nao_lola.git
+      version: galactic
     release:
       tags:
         release: release/galactic/{package}/{version}
-      url: https://github.com/ijnek/nao_lola-release.git
-      version: 0.0.4-1
+      url: https://github.com/ros2-gbp/nao_lola-release.git
+      version: 0.0.5-1
     source:
       type: git
-      url: https://github.com/ijnek/nao_lola.git
-      version: rolling
+      url: https://github.com/ros-sports/nao_lola.git
+      version: galactic
     status: developed
   navigation2:
     doc:
@@ -2419,6 +2449,23 @@ repositories:
       url: https://github.com/neobotix/neo_simulation2.git
       version: galactic
     status: maintained
+  nerian_stereo_ros2:
+    doc:
+      type: git
+      url: https://github.com/nerian-vision/nerian_stereo_ros2.git
+      version: master
+    release:
+      packages:
+      - nerian_stereo
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/nerian-vision/nerian_stereo_ros2-release.git
+      version: 1.1.1-1
+    source:
+      type: git
+      url: https://github.com/nerian-vision/nerian_stereo_ros2.git
+      version: master
+    status: developed
   nmea_hardware_interface:
     doc:
       type: git
@@ -2816,15 +2863,12 @@ repositories:
     doc:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: 1.0.0
+      version: 1.2.1
     release:
-      packages:
-      - performance_report
-      - performance_test
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/performance_test-release.git
-      version: 1.0.0-1
+      version: 1.2.1-1
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
@@ -2889,7 +2933,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.4.4-1
+      version: 3.5.0-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -3370,7 +3414,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rclpy-release.git
-      version: 1.9.1-1
+      version: 1.9.2-1
     source:
       test_pull_requests: true
       type: git
@@ -3406,7 +3450,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rcss3d_agent-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/ros-sports/rcss3d_agent.git
@@ -3421,7 +3465,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rcutils-release.git
-      version: 4.0.2-2
+      version: 4.0.3-1
     source:
       test_pull_requests: true
       type: git
@@ -3925,7 +3969,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: master
+      version: galactic
     release:
       packages:
       - controller_interface
@@ -3943,7 +3987,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: master
+      version: galactic
     status: developed
   ros2_controllers:
     doc:
@@ -4083,7 +4127,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/ros2cli-release.git
-      version: 0.13.3-1
+      version: 0.13.4-1
     source:
       test_pull_requests: true
       type: git
@@ -4181,7 +4225,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/ros_image_to_qimage-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/ros-sports/ros_image_to_qimage.git
@@ -4281,7 +4325,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2_storage_mcap-release.git
-      version: 0.1.5-1
+      version: 0.1.6-1
     source:
       type: git
       url: https://github.com/ros-tooling/rosbag2_storage_mcap.git
@@ -5634,7 +5678,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/turtlebot4-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/turtlebot/turtlebot4.git
@@ -5788,6 +5832,11 @@ repositories:
       type: git
       url: https://github.com/joshnewans/twist_stamper.git
       version: main
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/joshnewans/twist_stamper-release.git
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/joshnewans/twist_stamper.git
@@ -6123,7 +6172,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-drivers/velodyne.git
-      version: galactic-devel
+      version: ros2
     release:
       packages:
       - velodyne
@@ -6134,11 +6183,11 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/velodyne-release.git
-      version: 2.2.0-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/ros-drivers/velodyne.git
-      version: galactic-devel
+      version: ros2
     status: developed
   velodyne_simulator:
     doc:

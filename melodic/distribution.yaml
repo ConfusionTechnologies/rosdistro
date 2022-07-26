@@ -2842,7 +2842,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/stack-of-tasks/eigenpy-ros-release.git
-      version: 2.7.5-1
+      version: 2.7.8-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -2993,7 +2993,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/jbohren/executive_smach_visualization-release.git
-      version: 3.0.0-1
+      version: 4.0.0-1
     source:
       type: git
       url: https://github.com/ros-visualization/executive_smach_visualization.git
@@ -3514,6 +3514,21 @@ repositories:
       url: https://github.com/ros-drivers/four_wheel_steering_msgs.git
       version: master
     status: maintained
+  foxglove_msgs:
+    doc:
+      type: git
+      url: https://github.com/foxglove/schemas.git
+      version: main
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/foxglove/ros_foxglove_msgs-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/foxglove/schemas.git
+      version: main
+    status: developed
   frame_editor:
     doc:
       type: git
@@ -4454,7 +4469,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros4hri/hri_msgs-release.git
-      version: 0.5.2-1
+      version: 0.7.1-1
     source:
       type: git
       url: https://github.com/ros4hri/hri_msgs.git
@@ -4651,7 +4666,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: indigo
+      version: melodic
     release:
       packages:
       - camera_calibration
@@ -4665,11 +4680,11 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/image_pipeline-release.git
-      version: 1.15.0-1
+      version: 1.15.2-1
     source:
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: indigo
+      version: melodic
     status: developed
   image_transport_plugins:
     doc:
@@ -6175,6 +6190,21 @@ repositories:
       url: https://github.com/hatchbed/log_view.git
       version: devel
     status: developed
+  lsc_ros_driver:
+    doc:
+      type: git
+      url: https://github.com/AutonicsLiDAR/lsc_ros_driver.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/AutonicsLiDAR-release/lsc_ros_driver-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/AutonicsLiDAR/lsc_ros_driver.git
+      version: master
+    status: maintained
   lsm_localization:
     doc:
       type: git
@@ -7232,7 +7262,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.4.10-1
+      version: 2.5.0-1
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
@@ -7300,7 +7330,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
-      version: ros1
+      version: melodic-devel
     release:
       packages:
       - mrpt_ekf_slam_2d
@@ -7315,7 +7345,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
-      version: ros1
+      version: melodic-devel
     status: maintained
   mrt_cmake_modules:
     doc:
@@ -7655,7 +7685,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.11.4-1
+      version: 0.11.6-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -7690,12 +7720,13 @@ repositories:
       version: master
     release:
       packages:
+      - costmap_cspace_rviz_plugins
       - neonavigation_rviz_plugins
       - trajectory_tracker_rviz_plugins
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/neonavigation_rviz_plugins-release.git
-      version: 0.3.1-1
+      version: 0.11.6-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation_rviz_plugins.git
@@ -7710,7 +7741,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/nerian-vision/nerian_stereo-release.git
-      version: 3.9.1-1
+      version: 3.10.0-1
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_stereo.git
@@ -9055,7 +9086,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.4.3-1
+      version: 3.5.0-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -9361,7 +9392,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_mechanism-release.git
-      version: 1.8.20-1
+      version: 1.8.21-1
     source:
       type: git
       url: https://github.com/pr2/pr2_mechanism.git
@@ -9713,6 +9744,7 @@ repositories:
       - qb_device_control
       - qb_device_description
       - qb_device_driver
+      - qb_device_gazebo
       - qb_device_hardware_interface
       - qb_device_msgs
       - qb_device_srvs
@@ -9720,7 +9752,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://bitbucket.org/qbrobotics/qbdevice-ros-release.git
-      version: 2.0.1-0
+      version: 3.0.4-3
     source:
       type: git
       url: https://bitbucket.org/qbrobotics/qbdevice-ros.git
@@ -13104,6 +13136,21 @@ repositories:
       url: https://github.com/SteveMacenski/slam_toolbox.git
       version: melodic-devel
     status: maintained
+  snmp_ros:
+    doc:
+      type: git
+      url: https://github.com/ctu-vras/snmp_ros.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ctu-vras/snmp_ros-release.git
+      version: 1.0.3-1
+    source:
+      type: git
+      url: https://github.com/ctu-vras/snmp_ros.git
+      version: master
+    status: developed
   snowbot_operating_system:
     doc:
       type: git
