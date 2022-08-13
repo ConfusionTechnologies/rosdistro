@@ -751,7 +751,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/luxonis/depthai-ros-release.git
-      version: 2.5.2-1
+      version: 2.5.3-1
     source:
       test_pull_requests: true
       type: git
@@ -974,7 +974,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 2.7.8-1
+      version: 2.7.10-2
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -1448,6 +1448,21 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
       version: galactic-devel
     status: maintained
+  hpp-fcl:
+    doc:
+      type: git
+      url: https://github.com/humanoid-path-planner/hpp-fcl.git
+      version: master
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/hpp_fcl-release.git
+      version: 2.1.2-1
+    source:
+      type: git
+      url: https://github.com/humanoid-path-planner/hpp-fcl.git
+      version: devel
+    status: developed
   iceoryx:
     release:
       packages:
@@ -1916,7 +1931,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/hatchbed/log_view-release.git
-      version: 0.2.1-1
+      version: 0.2.2-1
     source:
       type: git
       url: https://github.com/hatchbed/log_view.git
@@ -2033,7 +2048,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2022.3.3-1
+      version: 2022.8.8-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -2583,7 +2598,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/ntrip_client-release.git
-      version: 1.1.0-1
+      version: 1.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2709,7 +2724,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/orocos_kinematics_dynamics-release.git
-      version: 3.3.3-2
+      version: 3.4.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2879,7 +2894,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/performance_test_fixture-release.git
-      version: 0.0.8-1
+      version: 0.0.9-1
     source:
       test_pull_requests: true
       type: git
@@ -2933,7 +2948,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.5.0-1
+      version: 3.5.2-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -3169,7 +3184,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/r2r_spl-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-sports/r2r_spl.git
@@ -3983,7 +3998,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 1.5.1-1
+      version: 1.6.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -4011,7 +4026,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 1.4.0-1
+      version: 1.5.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -4083,7 +4098,7 @@ repositories:
   ros2_tracing:
     doc:
       type: git
-      url: https://gitlab.com/ros-tracing/ros2_tracing.git
+      url: https://github.com/ros2/ros2_tracing.git
       version: galactic
     release:
       packages:
@@ -4099,7 +4114,7 @@ repositories:
       version: 2.3.0-2
     source:
       type: git
-      url: https://gitlab.com/ros-tracing/ros2_tracing.git
+      url: https://github.com/ros2/ros2_tracing.git
       version: galactic
     status: developed
   ros2cli:
@@ -4430,7 +4445,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_python-release.git
-      version: 0.11.2-1
+      version: 0.11.3-1
     source:
       test_pull_requests: true
       type: git
@@ -4661,7 +4676,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_image_overlay-release.git
-      version: 0.0.6-1
+      version: 0.0.7-1
     source:
       type: git
       url: https://github.com/ros-sports/rqt_image_overlay.git
@@ -4732,7 +4747,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-visualization/rqt_publisher.git
-      version: foxy-devel
+      version: galactic
     release:
       tags:
         release: release/galactic/{package}/{version}
@@ -4741,7 +4756,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_publisher.git
-      version: foxy-devel
+      version: galactic
     status: maintained
   rqt_py_console:
     doc:
@@ -5981,7 +5996,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
-      version: 2.1.1-1
+      version: 2.1.2-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
